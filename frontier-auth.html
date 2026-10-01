@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>ED CAPSUL — Connexion Frontier</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #11161b;
+      color: #e7edf2;
+      font-family: Arial, sans-serif;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 80px auto;
+      padding: 32px;
+      background: #1b2229;
+      border: 1px solid #384652;
+      border-radius: 8px;
+    }
+
+    h1 {
+      color: #ff8a2a;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background: #ff8a2a;
+      color: #111;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+
+    .secondary {
+      color: #a9bed0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>ED CAPSUL</h1>
+
+    <p id="message">
+      Retour de l’authentification Frontier en cours…
+    </p>
+
+    <a id="open-app" class="button" href="#" hidden>
+      Ouvrir ED CAPSUL
+    </a>
+
+    <p class="secondary">
+      Cette page est utilisée uniquement pour le retour sécurisé de
+      l’authentification Frontier vers ED CAPSUL.
+    </p>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const code = params.get("code");
+    const state = params.get("state");
+    const error = params.get("error");
+    const message = document.getElementById("message");
+    const button = document.getElementById("open-app");
+
+    if (error) {
+      message.textContent =
+        "Frontier n’a pas autorisé la connexion à ED CAPSUL.";
+    } else if (code && state) {
+      message.textContent =
+        "Autorisation Frontier reçue. Vous pouvez revenir dans ED CAPSUL.";
+
+      button.href =
+        "edcapsul://frontier-auth" + window.location.search;
+
+      button.hidden = false;
+    } else {
+      message.textContent =
+        "Cette page est le point de retour d’authentification Frontier pour ED CAPSUL.";
+    }
+  </script>
+</body>
+</html>
