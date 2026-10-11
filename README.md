@@ -95,3 +95,14 @@ Il contient notamment les installateurs publics, les documents de présentation,
 ---
 
 **ED CAPSUL est un projet personnel, indépendant et gratuit, développé par le Commandant C-THIB pour la communauté francophone d'Elite Dangerous.**
+
+---
+
+## Communauté et entraide
+
+Un espace communautaire est disponible pour échanger autour d'ED CAPSUL, poser des questions, signaler des problèmes et proposer des améliorations.
+
+- [Accéder au forum ED CAPSUL](https://github.com/C-Thib1101/ed-capsul-releases/discussions)
+- [Consulter le règlement de la communauté](https://github.com/C-Thib1101/ed-capsul-releases/blob/main/CODE_OF_CONDUCT.md)
+
+Les échanges se déroulent principalement en français. Le forum est ouvert aux utilisateurs d'ED CAPSUL et aux Commandants souhaitant découvrir le projet.
