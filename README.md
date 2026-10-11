@@ -19,8 +19,10 @@ ED CAPSUL exploite principalement les Journaux locaux d'Elite Dangerous et propo
 **Première version publique : Beta 0.1.0**
 
 - **[Télécharger ED CAPSUL Beta 0.1.0 — Windows 64 bits](https://github.com/C-Thib1101/ed-capsul-releases/releases/download/v0.1.0/ED_CAPSUL_JOUEUR_BETA_0.1.0_REVISEE_Setup.exe)**
-- **[Consulter la présentation complète d'ED CAPSUL (PDF)](https://github.com/C-Thib1101/ed-capsul-releases/releases/download/v0.1.0/ED_CAPSUL-Presentation.Vers.Beta_0.1.0.pdf)**
+- **[Présentation rapide d'ED CAPSUL (PDF)](https://github.com/C-Thib1101/ed-capsul-releases/releases/download/v0.1.0/ED_CAPSUL-Presentation.Vers.Beta_0.1.0.pdf)**
 - [Voir la Release et ses notes de version](https://github.com/C-Thib1101/ed-capsul-releases/releases/tag/v0.1.0)
+
+Ce PDF propose un aperçu illustré et non exhaustif des fonctionnalités déjà disponibles dans ED CAPSUL Beta 0.1.0.
 
 Cette première édition publique est distribuée en **Pre-release (Beta)**. Certaines fonctionnalités restent en cours de validation et d'amélioration.
 
@@ -51,8 +53,6 @@ Informations de gestion du Fleet Carrier, Tritium, finances, stocks et outils de
 
 ### Commandes Elite Dangerous
 Consultation des préréglages, des commandes utilisées et gestion de sauvegardes locales.
-
-Pour une présentation détaillée des différentes rubriques, consultez le **document PDF disponible ci-dessus**.
 
 ---
 
