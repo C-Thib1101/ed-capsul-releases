@@ -1,42 +1,97 @@
 # ED CAPSUL
 
-**Assistant compagnon francophone pour Elite Dangerous**
+**Votre compagnon français pour Elite Dangerous**
 
-ED CAPSUL est une application destinée à accompagner les joueurs d'Elite Dangerous, du débutant au joueur expérimenté.
+**Version publique disponible : Beta 0.1.0 — Windows 64 bits**
 
-L'application est conçue pour fonctionner principalement en local sur le PC du joueur et exploiter les informations disponibles dans Elite Dangerous afin de proposer des outils d'aide, de suivi et de compréhension du jeu.
+ED CAPSUL est un logiciel compagnon pour Elite Dangerous, développé par le Commandant **C-THIB**.
 
-## Distribution d'ED CAPSUL
+Entièrement en français, ce projet personnel, indépendant et gratuit s'adresse aux Commandants débutants comme expérimentés.
 
-Ce dépôt GitHub est exclusivement destiné à la **distribution publique des versions d'ED CAPSUL**.
+Il réunit dans une même application des outils et des informations pour comprendre les mécaniques du jeu, organiser ses activités et suivre sa progression.
 
-Il pourra notamment contenir :
+ED CAPSUL exploite principalement les Journaux locaux d'Elite Dangerous et propose des informations concernant Horizons et Odyssey.
 
-- les installateurs des versions publiques d'ED CAPSUL ;
-- les notes accompagnant chaque nouvelle version ;
-- les informations nécessaires à la vérification des mises à jour ;
-- l'historique des versions publiques.
+---
 
-## Code source
+## Télécharger ED CAPSUL
 
-Le code source et les fichiers de développement d'ED CAPSUL **ne sont pas publiés dans ce dépôt**.
+**Première version publique : Beta 0.1.0**
 
-Ce dépôt ne constitue donc pas le dépôt de développement du projet.
+- **[Télécharger ED CAPSUL Beta 0.1.0 — Windows 64 bits](https://github.com/C-Thib1101/ed-capsul-releases/releases/download/v0.1.0/ED_CAPSUL_JOUEUR_BETA_0.1.0_REVISEE_Setup.exe)**
+- **[Consulter la présentation complète d'ED CAPSUL (PDF)](https://github.com/C-Thib1101/ed-capsul-releases/releases/download/v0.1.0/ED_CAPSUL-Presentation.Vers.Beta_0.1.0.pdf)**
+- [Voir la Release et ses notes de version](https://github.com/C-Thib1101/ed-capsul-releases/releases/tag/v0.1.0)
 
-## Fonctionnement hors ligne
+Cette première édition publique est distribuée en **Pre-release (Beta)**. Certaines fonctionnalités restent en cours de validation et d'amélioration.
 
-ED CAPSUL est conçu selon un principe **offline-first** : les fonctions pouvant fonctionner localement ne doivent pas dépendre d'une connexion Internet permanente.
+---
 
-Certaines fonctions peuvent néanmoins utiliser des sources externes lorsque l'accès Internet correspondant est autorisé par l'utilisateur.
+## Principales fonctionnalités
+
+### Commandant et progression
+Tableau de bord, inventaires, activités récentes, historique, objectifs de récolte et permis de systèmes.
+
+### Vaisseaux et équipements
+Catalogues des vaisseaux, modules, armes et véhicules, configurations et comparaisons. Équipements personnels Odyssey : combinaisons, armes, consommables et outils.
+
+### Ressources et ingénierie
+Matériaux Horizons, micro-ressources Odyssey, marchandises standard et rares, stocks, ingénieurs, plans d'amélioration et besoins en matériaux.
+
+### Exploration, exobiologie et Codex
+Suivi des explorations, systèmes et corps découverts, cartographie, activités d'exobiologie et consultation des découvertes du Codex.
+
+### Activités de jeu
+Minage en anneau, extraction planétaire, recherche de sites, Commerce, Combat et Powerplay.
+
+### Community Goals
+Consultation des objectifs communautaires, suivi des informations disponibles et conservation du dernier état connu pour consultation hors ligne.
+
+### Fleet Carrier et navigation
+Informations de gestion du Fleet Carrier, Tritium, finances, stocks et outils de préparation et de suivi des routes.
+
+### Commandes Elite Dangerous
+Consultation des préréglages, des commandes utilisées et gestion de sauvegardes locales.
+
+Pour une présentation détaillée des différentes rubriques, consultez le **document PDF disponible ci-dessus**.
+
+---
+
+## Fonctionnement local et hors ligne
+
+ED CAPSUL privilégie un fonctionnement local.
+
+Les Journaux et fichiers Frontier sont consultés en lecture seule, sans modification des fichiers du jeu.
+
+Les informations déjà enregistrées peuvent rester consultables hors connexion lorsque la fonctionnalité concernée ne nécessite pas de service externe.
+
+## Frontier CAPI
+
+ED CAPSUL intègre une connexion facultative à la **Companion API de Frontier Developments** pour compléter certaines informations locales.
+
+Son utilisation dépend de l'autorisation du joueur et de la disponibilité du service Frontier.
+
+La première authentification CAPI depuis l'édition Joueur fait encore partie des vérifications à réaliser pour cette Beta.
 
 ## Mises à jour
 
-ED CAPSUL pourra vérifier la disponibilité d'une nouvelle version publiée dans ce dépôt.
+ED CAPSUL dispose d'un système de vérification des mises à jour à partir de ce dépôt GitHub.
 
-La vérification d'une mise à jour ne signifie pas que l'application doit être mise à jour automatiquement : le joueur reste informé et maître du téléchargement et de l'installation.
+Seules les versions autorisées dans le registre officiel de distribution peuvent être proposées par l'application.
 
-## Téléchargement
+Le joueur conserve la maîtrise des autorisations Internet, des téléchargements et des installations.
 
-Les versions publiques d'ED CAPSUL seront disponibles dans la section **Releases** de ce dépôt.
+Un historique local des versions est prévu, ainsi qu'un mécanisme de retour à la version précédente lors des futures mises à jour.
 
-> ED CAPSUL est actuellement en développement. Une première version publique sera proposée lorsqu'elle sera prête.
+---
+
+## À propos de ce dépôt
+
+Ce dépôt GitHub est exclusivement consacré à la **distribution officielle d'ED CAPSUL**.
+
+Il contient notamment les installateurs publics, les documents de présentation, les notes de version et les informations nécessaires à la vérification des mises à jour.
+
+**Le code source interne et les fichiers de développement d'ED CAPSUL ne sont pas publiés dans ce dépôt.**
+
+---
+
+**ED CAPSUL est un projet personnel, indépendant et gratuit, développé par le Commandant C-THIB pour la communauté francophone d'Elite Dangerous.**
