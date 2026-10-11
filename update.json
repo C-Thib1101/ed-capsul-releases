@@ -1,0 +1,41 @@
+{
+  "schema": "ed-capsul-update-registry/1",
+  "repository": "ED-CAPSUL-Releases",
+  "releases": [
+    {
+      "version": "0.1.0",
+      "channel": "beta",
+      "state": "ACTIVE",
+      "asset_url": "https://github.com/C-Thib1101/ed-capsul-releases/releases/download/v0.1.0/ED_CAPSUL_JOUEUR_BETA_0.1.0_REVISEE_Setup.exe",
+      "sha256": "db81ee004095c2471cca4213d772de5030e07ba54acb8c6811cdbd1ff9036204",
+      "title": "ED CAPSUL — Beta 0.1.0",
+      "new_features": [
+        "Première version Joueur d’ED CAPSUL pour Windows 64 bits, indépendante de l’édition Développement.",
+        "Tableau de bord et suivi du Commandant : position, inventaires, historique, objectifs de récolte et permis de systèmes.",
+        "Catalogues des vaisseaux, modules, armes, véhicules et équipements personnels Horizons et Odyssey.",
+        "Création, consultation et comparaison de configurations de vaisseaux et d’équipements personnels.",
+        "Ressources Horizons, micro-ressources Odyssey, marchandises standard et rares, stocks et échanges de matériaux.",
+        "Ingénieurs et ingénierie : plans, grades, ingrédients, effets expérimentaux et besoins en matériaux.",
+        "Exploration, exobiologie, Codex et suivi des découvertes connues.",
+        "Minage en anneau, extraction planétaire, recherche de sites, Commerce, Combat et Powerplay.",
+        "Community Goals : consultation des informations connues et du dernier état mémorisé hors ligne.",
+        "Fleet Carrier : informations de gestion, tritium, finances, stocks et outils de routes.",
+        "Commandes Elite Dangerous : préréglages, commandes actuellement utilisées et sauvegardes locales.",
+        "Exploitation en lecture seule des Journaux locaux Frontier ; accès hors ligne aux données déjà disponibles.",
+        "Connexion facultative à Frontier CAPI et vérification des mises à jour par registre GitHub sous autorisation réseau."
+      ],
+      "fixes": [
+        "Affichage des Community Goals à partir de la dernière capture mémorisée.",
+        "Rubriques Minage, Minage en anneau, Extraction planétaire et Recherche de site séparées.",
+        "Correction intégrée au désinstallateur Windows de cette édition révisée."
+      ],
+      "known_issues": [
+        "Première authentification Frontier CAPI depuis une installation Joueur non encore vérifiée en situation réelle.",
+        "Cycle complet de mise à jour GitHub entre deux versions publiées non encore testé en situation réelle.",
+        "Conservation et restauration de la version précédente (N−1) à tester lors d’une mise à jour ultérieure.",
+        "Désinstallation de cette édition Beta 0.1.0 révisée non encore testée sur Windows."
+      ],
+      "correction_for": []
+    }
+  ]
+}
