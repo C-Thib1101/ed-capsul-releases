@@ -2,7 +2,7 @@
 
 **Votre compagnon français pour Elite Dangerous**
 
-**Version publique disponible : Beta 0.1.0 — Windows 64 bits**
+**Version publique actuelle : Beta 0.1.1 — Windows 64 bits**
 
 ED CAPSUL est un logiciel compagnon pour Elite Dangerous, développé par le Commandant **C-THIB**.
 
@@ -16,15 +16,15 @@ ED CAPSUL exploite principalement les Journaux locaux d'Elite Dangerous et propo
 
 ## Télécharger ED CAPSUL
 
-**Première version publique : Beta 0.1.0**
+**Version publique actuelle : Beta 0.1.1**
 
-- **[Télécharger ED CAPSUL Beta 0.1.0 — Windows 64 bits](https://github.com/C-Thib1101/ed-capsul-releases/releases/download/v0.1.0/ED_CAPSUL_JOUEUR_BETA_0.1.0_REVISEE_Setup.exe)**
+- **[Télécharger ED CAPSUL Beta 0.1.1 — Windows 64 bits](https://github.com/C-Thib1101/ed-capsul-releases/releases/download/v0.1.1/ED_CAPSUL_JOUEUR_BETA_0.1.1_Setup.exe)**
 - **[Présentation rapide d'ED CAPSUL (PDF)](https://github.com/C-Thib1101/ed-capsul-releases/releases/download/v0.1.0/ED_CAPSUL-Presentation.Vers.Beta_0.1.0.pdf)**
-- [Voir la Release et ses notes de version](https://github.com/C-Thib1101/ed-capsul-releases/releases/tag/v0.1.0)
+- [Voir la Release et ses notes de version](https://github.com/C-Thib1101/ed-capsul-releases/releases/tag/v0.1.1)
 
-Ce PDF propose un aperçu illustré et non exhaustif des fonctionnalités déjà disponibles dans ED CAPSUL Beta 0.1.0.
+Cette présentation, réalisée pour la Beta 0.1.0, propose un aperçu illustré et non exhaustif des fonctionnalités d'ED CAPSUL. Elle ne couvre pas nécessairement les nouveautés apportées par la Beta 0.1.1.
 
-Cette première édition publique est distribuée en **Pre-release (Beta)**. Certaines fonctionnalités restent en cours de validation et d'amélioration.
+La Beta 0.1.1 est distribuée en **Pre-release (Beta)**. Elle constitue une **mise à jour corrective recommandée pour les utilisateurs de la Beta 0.1.0**, notamment pour renforcer la sécurité du système de mises à jour. Son installation reste facultative.
 
 ---
 
