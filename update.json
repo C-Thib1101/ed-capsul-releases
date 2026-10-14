@@ -3,6 +3,44 @@
   "repository": "ED-CAPSUL-Releases",
   "releases": [
     {
+      "version": "0.1.1",
+      "channel": "beta",
+      "state": "ACTIVE",
+      "asset_url": "https://github.com/C-Thib1101/ed-capsul-releases/releases/download/v0.1.1/ED_CAPSUL_JOUEUR_BETA_0.1.1_Setup.exe",
+      "sha256": "98552af13d27ab15e84eb1b1ec3d193522b56c2fa0c612ae259df3bccbad0c1e",
+      "title": "ED CAPSUL — Beta 0.1.1",
+      "new_features": [
+        "Minage dans le système actuel : distinction des anneaux et des emplacements d’extraction planétaire.",
+        "Enregistrement distinct des emplacements, des ressources observées sur place et des gisements individuels.",
+        "Fiches détaillées des emplacements et gisements avec observations, localisation et historique.",
+        "Guidage planétaire dans une fenêtre indépendante : direction du gisement, carte locale, zoom et gisements proches.",
+        "Affichage plus réactif de la position du véhicule et du guidage selon les données réellement fournies par Elite Dangerous.",
+        "Route programmée plus compacte : prochains sauts, distance, étoile/carburant et destination finale.",
+        "Indication de l’installation ciblée à l’arrivée dans le système lorsque les Journaux Frontier communiquent cette cible.",
+        "Nouvelle rubrique Mon Commandant avec Rangs et réputation fondés sur les informations connues.",
+        "Terminologie clarifiée pour l’Exobiologie et le Premier débarquement.",
+        "Accès à Communauté et entraide depuis la rubrique À propos."
+      ],
+      "fixes": [
+        "Correction de l’accès et de la lecture des données de position pour certaines opérations de minage planétaire.",
+        "Correction de l’enregistrement des ressources observées et de la révision des emplacements d’extraction.",
+        "Amélioration de la cohérence des positions, des identités de site, des dates et des fiches de gisements.",
+        "Guidage recentré sur le véhicule ; textes et icônes de la carte restent lisibles pendant le zoom.",
+        "Améliorations de la navigation entre les menus et de la présentation Powerplay.",
+        "Renforcement de l’isolation des éditions Joueur et Développement.",
+        "Correction de sécurité : le registre PUBLIC ne permet de proposer que des versions ACTIVE, y compris lorsqu’une ancienne autorisation locale de validation existe."
+      ],
+      "known_issues": [
+        "Première authentification Frontier CAPI depuis le compte d’un autre joueur non encore vérifiée en situation réelle.",
+        "Cycle complet de découverte et d’installation de la mise à jour 0.1.0 vers 0.1.1 par le parcours public GitHub non encore testé en situation réelle.",
+        "Désinstallation de cette édition Beta 0.1.1 non encore vérifiée sur Windows.",
+        "La position et le cap en surface dépendent des informations réellement disponibles dans les fichiers Frontier ; aucune coordonnée manquante n’est extrapolée."
+      ],
+      "correction_for": [
+        "0.1.0"
+      ]
+    },
+    {
       "version": "0.1.0",
       "channel": "beta",
       "state": "ACTIVE",
